@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AgroServicio</title>
+    <link rel="stylesheet" href="contacto.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="image-logo-section">
+                <div class="image-section">
+                    <img src="LC.png" class="img" alt="img">
+                </div>
+                <div class="logo">
+                    Agroservicio <br>La Cosecha
+                </div>
+            </div>
+            
+            <ul>
+                <li><a href="agroservicio.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="categorias.html">Categorias de productos</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="carrito.html">
+                    <img src="carrito.png"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+<section class="contact-section">
+    <h2>Contáctenos</h2>
+    <div class="contact-content">
+        <!-- Formulario de Contacto -->
+        <form class="contact-form" action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="contact-button">Enviar</button>
+        </form>
+
+        <!-- Botón de WhatsApp (debajo del formulario) -->
+        <div class="whatsapp-contact">
+            <a href="https://wa.me/50360075300" target="_blank" class="whatsapp-link">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" class="whatsapp-logo">
+                Chatea con nosotros en WhatsApp
+            </a>
+        </div>
+    </div>
+</section>

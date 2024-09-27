@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+        <div class="register-container">
+            <h2>Registro</h2>
+            <form id="register-form" action="registro.php" method="POST">
+                <div class="input-group">
+                    <label for="nombres">Nombres</label>
+                    <input type="text" name="Nombres" placeholder="Nombres">
+                </div>
+                <div class="input-group">
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" name="Apellidos" placeholder="Apellidos">
+                </div>
+                <div class="input-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" name="Telefono" placeholder="Telefono">
+                </div>
+                <div class="input-group">
+                    <label for="fecha_na">Fecha de Nacimiento</label>
+                    <input type="date" name="Fecha_na" placeholder="Fecha_na">
+                </div>
+                <div class="input-group">
+                    <label for="usuario">Crear Usuario</label>
+                    <input type="text" name="Usuario" placeholder=" Usuario">
+                </div>
+                <div class="input-group">
+                    <label for="contraseña">Crear Contraseña</label>
+                    <input type="password" name="Contraseña" placeholder="Contraseña">
+                </div>
+                <button type="submit" class="btn">Registrarse</button>
+            </form>
+            <p>¿Ya tienes una cuenta? <a href="logi.html">Iniciar Sesión</a></p>
+        </div>
+    </div>
+</body>
+</html>
